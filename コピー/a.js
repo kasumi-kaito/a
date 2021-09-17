@@ -3,7 +3,14 @@ window.onload = function() {
       load();
 }
 function r(){
-      i = 3600; }
+      if(localStorage.getItem('残り時間') = 0){
+          i = 3600;
+          localStorage.setItem('残り時間',i)
+      }
+    else{
+          load();
+    }
+}
 var a = function(){
           i --;
       u = document.getElementById('p')   
