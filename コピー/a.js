@@ -12,6 +12,7 @@ function r(){
     }
 }
 var a = function(){
+      i = localStorage.getItem('残り時間')
           i --;
       u = document.getElementById('p')   
 u.innerHTML=　'残り'　+ i + '秒';
