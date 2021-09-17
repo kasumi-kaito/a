@@ -1,3 +1,4 @@
+window.onunload = function() {};
 window.onload = function() {
       r();
       load();
